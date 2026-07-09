@@ -217,10 +217,19 @@ h6 {
   table-layout: auto;
 }
 
+/* Time */
 .table td:first-child,
 .table th:first-child {
   min-width: 140px;
   white-space: nowrap;
+}
+
+/* Speaker */
+.table td:nth-child(3),
+.table th:nth-child(3) {
+  width: 220px;          /* enough for most names */
+  min-width: 220px;
+  white-space: nowrap;   /* keep names on one line */
 }
 
 /*--------------------------------------------------------------
